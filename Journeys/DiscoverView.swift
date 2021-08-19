@@ -57,6 +57,20 @@ struct DiscoverView: View {
                         }
                         .padding(.horizontal, 20)
 
+                        // added in video
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            LazyHStack() {
+                                ForEach(location.pictures, id: \.self) { picture in
+                                    Image("\(picture)-thumb")
+                                        .resizable()
+                                        .frame(width: 100)
+                                        .clipShape(RoundedRectangle(cornerRadius:  16))
+                                }
+                            }
+                        }.frame(height: 100)
+                        .padding([.horizontal, .bottom], 20 )
+                        // add end
+
                         VStack(alignment: .leading) {
                             Text(location.description)
                                 .fixedSize(horizontal: false, vertical: true)
