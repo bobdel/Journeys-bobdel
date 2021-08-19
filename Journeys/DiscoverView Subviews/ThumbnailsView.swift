@@ -13,17 +13,18 @@ struct ThumbnailsView: View {
     var body: some View {
         // added in video
         ScrollView(.horizontal, showsIndicators: false) {
-            LazyHStack() {
+            LazyHStack {
                 ForEach(location.pictures, id: \.self) { picture in
                     Image("\(picture)-thumb")
                         .resizable()
-                        .frame(width: 100)
+                        .frame(width: 150)
                         .clipShape(RoundedRectangle(cornerRadius:  16))
                 }
             }
-        }.frame(height: 100)
-        .padding([.horizontal, .bottom], 20 )
-        // add end
+            .frame(height: 100)
+            .padding([.horizontal, .bottom], 20 )
+            // add end
+        }
     }
 }
 
