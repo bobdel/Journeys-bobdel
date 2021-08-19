@@ -25,66 +25,18 @@ struct DiscoverView: View {
                 ScrollView(showsIndicators: false) {
                     Spacer().frame(height: geo.size.height * 0.35)
 
-                    HStack {
-                        Text(location.name)
-                            .font(.system(size: 48, weight: .bold))
-                            .bold()
-                            .foregroundColor(.white)
-                            .shadow(color: Color.black.opacity(1), radius: 5)
-
-                        Spacer()
-                    }
+                    HeaderTextView(location: location)
                     .padding(.horizontal, 20)
 
                     VStack(alignment: .leading, spacing: 0) {
-                        HStack {
-                            Text(location.country)
-                                .font(.title)
-                                .bold()
 
-                            Spacer()
+                        CountryHeaderView(location: location)
 
-                            Button {
-                                print("Bookmarked")
-                            } label: {
-                                Image(systemName: "heart")
-                                    .font(.title)
-                                    .padding(20)
-                                    .background(Circle().fill(Color.white))
-                                    .shadow(radius: 10)
-                            }
-                            .offset(y: -40)
-                        }
-                        .padding(.horizontal, 20)
+                        ThumbnailsView(location: location)
 
-                        // added in video
-                        ScrollView(.horizontal, showsIndicators: false) {
-                            LazyHStack() {
-                                ForEach(location.pictures, id: \.self) { picture in
-                                    Image("\(picture)-thumb")
-                                        .resizable()
-                                        .frame(width: 100)
-                                        .clipShape(RoundedRectangle(cornerRadius:  16))
-                                }
-                            }
-                        }.frame(height: 100)
-                        .padding([.horizontal, .bottom], 20 )
-                        // add end
-
-                        VStack(alignment: .leading) {
-                            Text(location.description)
-                                .fixedSize(horizontal: false, vertical: true)
-
-                            Text("Don't miss")
-                                .font(.title3)
-                                .bold()
-                                .padding(.top, 20)
-
-                            Text(location.more)
-                                .fixedSize(horizontal: false, vertical: true)
-                        }
-                        .padding(.horizontal, 20)
-                        .padding(.bottom, 50)
+                        DescriptionView(location: location)
+                            .padding(.horizontal, 20)
+                            .padding(.bottom, 50)
                     }
                     .background(
                         RoundedRectangle(cornerRadius: 20)
