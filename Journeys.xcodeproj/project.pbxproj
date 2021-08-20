@@ -25,6 +25,7 @@
 		619D13A926CEEAB200E269C7 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13A826CEEAB200E269C7 /* DescriptionView.swift */; };
 		619D13AB26CEECCF00E269C7 /* HeaderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13AA26CEECCF00E269C7 /* HeaderTextView.swift */; };
 		619D13AE26CF201A00E269C7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13AD26CF201900E269C7 /* MapView.swift */; };
+		61F97F3E26D05285001FA2FF /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F97F3D26D05285001FA2FF /* PlaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		619D13A826CEEAB200E269C7 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		619D13AA26CEECCF00E269C7 /* HeaderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTextView.swift; sourceTree = "<group>"; };
 		619D13AD26CF201900E269C7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		61F97F3D26D05285001FA2FF /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				51517AAD24B31F8400DEAED4 /* DiscoverView.swift */,
 				619D13AC26CEED8600E269C7 /* DiscoverView Subviews */,
 				513792A824B3DACA009EF05D /* PicksView.swift */,
+				61F97F3D26D05285001FA2FF /* PlaceView.swift */,
 				517B236124B8A1AA0073C8F6 /* TipsView.swift */,
 				517B236524B8B28D0073C8F6 /* Bundle-Decodable.swift */,
 				5160930424BBD4A500279921 /* Location.swift */,
@@ -197,6 +200,7 @@
 			files = (
 				5160930524BBD4A500279921 /* Location.swift in Sources */,
 				619D13AE26CF201A00E269C7 /* MapView.swift in Sources */,
+				61F97F3E26D05285001FA2FF /* PlaceView.swift in Sources */,
 				619D13A526CEE6F400E269C7 /* ThumbnailsView.swift in Sources */,
 				619D13A726CEE91400E269C7 /* CountryHeaderView.swift in Sources */,
 				51517A9F24B31AA500DEAED4 /* ContentView.swift in Sources */,

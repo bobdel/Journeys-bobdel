@@ -10,6 +10,10 @@ import SwiftUI
 struct PicksView: View {
     @EnvironmentObject var locations: Locations
 
+    let columns = [
+        GridItem(.adaptive(minimum: 180))
+    ]
+
     var body: some View {
         ScrollView {
             TabView {
@@ -26,6 +30,17 @@ struct PicksView: View {
             .frame(height: 300)
             .tabViewStyle(PageTabViewStyle())
             .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+
+
+            LazyVGrid(columns: columns, alignment: .center, spacing: 0) {
+                ForEach(locations.places) { place in
+                    NavigationLink(destination: DiscoverView(location: place)) {
+                        PlaceView(location: place)
+                    }
+                }
+            }
+
+
         }
         .background(Color(white: 0.95))
         .navigationTitle("Our Top Picks")
