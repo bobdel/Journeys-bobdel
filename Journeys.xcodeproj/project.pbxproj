@@ -19,10 +19,12 @@
 		517B236224B8A1AA0073C8F6 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517B236124B8A1AA0073C8F6 /* TipsView.swift */; };
 		517B236424B8B27C0073C8F6 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 517B236324B8B27C0073C8F6 /* tips.json */; };
 		517B236624B8B28D0073C8F6 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517B236524B8B28D0073C8F6 /* Bundle-Decodable.swift */; };
+		612F5DAF26CFFC6200AB281F /* AdvisoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F5DAE26CFFC6200AB281F /* AdvisoryView.swift */; };
 		619D13A526CEE6F400E269C7 /* ThumbnailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13A426CEE6F400E269C7 /* ThumbnailsView.swift */; };
 		619D13A726CEE91400E269C7 /* CountryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13A626CEE91400E269C7 /* CountryHeaderView.swift */; };
 		619D13A926CEEAB200E269C7 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13A826CEEAB200E269C7 /* DescriptionView.swift */; };
 		619D13AB26CEECCF00E269C7 /* HeaderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13AA26CEECCF00E269C7 /* HeaderTextView.swift */; };
+		619D13AE26CF201A00E269C7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13AD26CF201900E269C7 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,10 +41,12 @@
 		517B236124B8A1AA0073C8F6 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		517B236324B8B27C0073C8F6 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		517B236524B8B28D0073C8F6 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		612F5DAE26CFFC6200AB281F /* AdvisoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisoryView.swift; sourceTree = "<group>"; };
 		619D13A426CEE6F400E269C7 /* ThumbnailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailsView.swift; sourceTree = "<group>"; };
 		619D13A626CEE91400E269C7 /* CountryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryHeaderView.swift; sourceTree = "<group>"; };
 		619D13A826CEEAB200E269C7 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		619D13AA26CEECCF00E269C7 /* HeaderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTextView.swift; sourceTree = "<group>"; };
+		619D13AD26CF201900E269C7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 				619D13A426CEE6F400E269C7 /* ThumbnailsView.swift */,
 				619D13A626CEE91400E269C7 /* CountryHeaderView.swift */,
 				619D13A826CEEAB200E269C7 /* DescriptionView.swift */,
+				619D13AD26CF201900E269C7 /* MapView.swift */,
+				612F5DAE26CFFC6200AB281F /* AdvisoryView.swift */,
 			);
 			path = "DiscoverView Subviews";
 			sourceTree = "<group>";
@@ -190,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5160930524BBD4A500279921 /* Location.swift in Sources */,
+				619D13AE26CF201A00E269C7 /* MapView.swift in Sources */,
 				619D13A526CEE6F400E269C7 /* ThumbnailsView.swift in Sources */,
 				619D13A726CEE91400E269C7 /* CountryHeaderView.swift in Sources */,
 				51517A9F24B31AA500DEAED4 /* ContentView.swift in Sources */,
@@ -199,6 +206,7 @@
 				517B236624B8B28D0073C8F6 /* Bundle-Decodable.swift in Sources */,
 				513792A924B3DACA009EF05D /* PicksView.swift in Sources */,
 				619D13AB26CEECCF00E269C7 /* HeaderTextView.swift in Sources */,
+				612F5DAF26CFFC6200AB281F /* AdvisoryView.swift in Sources */,
 				619D13A926CEEAB200E269C7 /* DescriptionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

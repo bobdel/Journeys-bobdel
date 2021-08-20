@@ -37,6 +37,14 @@ struct DiscoverView: View {
                         DescriptionView(location: location)
                             .padding(.horizontal, 20)
                             .padding(.bottom, 50)
+
+                        MapView(location: location)
+                            .padding(.horizontal, 20)
+
+                        AdvisoryView(location: location)
+                            .padding(.horizontal, 40)
+                            .padding(.bottom, 50)
+
                     }
                     .background(
                         RoundedRectangle(cornerRadius: 20)

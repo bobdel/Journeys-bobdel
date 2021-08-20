@@ -35,6 +35,8 @@ struct Location: Decodable, Identifiable {
     }
 
     static let example = Bundle.main.decode([Location].self, from: "locations.json")[0]
+    static let exampleNoAdv = Bundle.main.decode([Location].self, from: "locations.json")[2]
+
 }
 
 struct Coordinate: Decodable {
