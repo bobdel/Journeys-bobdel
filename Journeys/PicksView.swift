@@ -11,8 +11,24 @@ struct PicksView: View {
     @EnvironmentObject var locations: Locations
 
     var body: some View {
-        Text("Hello, World!").padding()
-            .navigationTitle("Our Top Picks")
+        ScrollView {
+            TabView {
+                ForEach(1..<9) { picture in
+                    GeometryReader { geo in
+                        Image("photo\(picture)")
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: geo.size.width)
+                            .clipped()
+                    }
+                }
+            }
+            .frame(height: 300)
+            .tabViewStyle(PageTabViewStyle())
+            .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+        }
+        .background(Color(white: 0.95))
+        .navigationTitle("Our Top Picks")
     }
 }
 
