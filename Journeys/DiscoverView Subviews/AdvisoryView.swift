@@ -13,18 +13,14 @@ struct AdvisoryView: View {
     let location: Location
 
     var body: some View {
-        VStack {
-            if location.advisory.isEmpty {
-                DisclosureGroup("Advisories", isExpanded: $disclosureShowing) {
-                    Text(location.advisory)
-                }
-                .contentShape(Rectangle())
-                .onTapGesture {
-                    withAnimation {
-                        disclosureShowing.toggle()
-                    }
-                }
+        if location.advisory.isEmpty == false {
+            DisclosureGroup {
+                Text(location.advisory)
+            } label: {
+                Text("Travel advisories")
+                    .font(.headline)
             }
+            .padding(.top)
         }
     }
 }
