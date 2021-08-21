@@ -25,6 +25,7 @@
 		619D13A926CEEAB200E269C7 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13A826CEEAB200E269C7 /* DescriptionView.swift */; };
 		619D13AB26CEECCF00E269C7 /* HeaderTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13AA26CEECCF00E269C7 /* HeaderTextView.swift */; };
 		619D13AE26CF201A00E269C7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13AD26CF201900E269C7 /* MapView.swift */; };
+		61BEA5A226D076AA0058C658 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BEA5A126D076AA0058C658 /* LocationsView.swift */; };
 		61F97F3E26D05285001FA2FF /* PlaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F97F3D26D05285001FA2FF /* PlaceView.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +49,7 @@
 		619D13A826CEEAB200E269C7 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		619D13AA26CEECCF00E269C7 /* HeaderTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTextView.swift; sourceTree = "<group>"; };
 		619D13AD26CF201900E269C7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		61BEA5A126D076AA0058C658 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
 		61F97F3D26D05285001FA2FF /* PlaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				513792A824B3DACA009EF05D /* PicksView.swift */,
 				61F97F3D26D05285001FA2FF /* PlaceView.swift */,
 				517B236124B8A1AA0073C8F6 /* TipsView.swift */,
+				61BEA5A126D076AA0058C658 /* LocationsView.swift */,
 				517B236524B8B28D0073C8F6 /* Bundle-Decodable.swift */,
 				5160930424BBD4A500279921 /* Location.swift */,
 				5160930224BBD49300279921 /* locations.json */,
@@ -202,6 +205,7 @@
 				619D13AE26CF201A00E269C7 /* MapView.swift in Sources */,
 				61F97F3E26D05285001FA2FF /* PlaceView.swift in Sources */,
 				619D13A526CEE6F400E269C7 /* ThumbnailsView.swift in Sources */,
+				61BEA5A226D076AA0058C658 /* LocationsView.swift in Sources */,
 				619D13A726CEE91400E269C7 /* CountryHeaderView.swift in Sources */,
 				51517A9F24B31AA500DEAED4 /* ContentView.swift in Sources */,
 				51517A9D24B31AA500DEAED4 /* JourneysApp.swift in Sources */,
@@ -269,7 +273,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -324,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

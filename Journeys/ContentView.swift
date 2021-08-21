@@ -32,6 +32,15 @@ struct ContentView: View {
             }
 
             NavigationView {
+                LocationsView()
+            }
+            .tabItem {
+                Image(systemName: "map.fill")
+                    .imageScale(.large)
+                Text("Map")
+            }
+
+            NavigationView {
                 TipsView()
             }
             .tabItem {
