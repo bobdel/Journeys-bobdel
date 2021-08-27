@@ -10,7 +10,7 @@
 		513792A524B3B0F6009EF05D /* VisualEffects in Frameworks */ = {isa = PBXBuildFile; productRef = 513792A424B3B0F6009EF05D /* VisualEffects */; };
 		513792A924B3DACA009EF05D /* PicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513792A824B3DACA009EF05D /* PicksView.swift */; };
 		51517A9D24B31AA500DEAED4 /* JourneysApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51517A9C24B31AA500DEAED4 /* JourneysApp.swift */; };
-		51517A9F24B31AA500DEAED4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51517A9E24B31AA500DEAED4 /* ContentView.swift */; };
+		51517A9F24B31AA500DEAED4 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51517A9E24B31AA500DEAED4 /* TabNavigationView.swift */; };
 		51517AA124B31AA500DEAED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51517AA024B31AA500DEAED4 /* Assets.xcassets */; };
 		51517AA424B31AA500DEAED4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51517AA324B31AA500DEAED4 /* Preview Assets.xcassets */; };
 		51517AAE24B31F8400DEAED4 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51517AAD24B31F8400DEAED4 /* DiscoverView.swift */; };
@@ -20,6 +20,8 @@
 		517B236424B8B27C0073C8F6 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 517B236324B8B27C0073C8F6 /* tips.json */; };
 		517B236624B8B28D0073C8F6 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517B236524B8B28D0073C8F6 /* Bundle-Decodable.swift */; };
 		612F5DAF26CFFC6200AB281F /* AdvisoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612F5DAE26CFFC6200AB281F /* AdvisoryView.swift */; };
+		614FD0D726D848B700F0EEF1 /* SidebarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614FD0D626D848B700F0EEF1 /* SidebarNavigation.swift */; };
+		614FD0D926D8535200F0EEF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614FD0D826D8535200F0EEF1 /* ContentView.swift */; };
 		619D13A526CEE6F400E269C7 /* ThumbnailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13A426CEE6F400E269C7 /* ThumbnailsView.swift */; };
 		619D13A726CEE91400E269C7 /* CountryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13A626CEE91400E269C7 /* CountryHeaderView.swift */; };
 		619D13A926CEEAB200E269C7 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619D13A826CEEAB200E269C7 /* DescriptionView.swift */; };
@@ -33,7 +35,7 @@
 		513792A824B3DACA009EF05D /* PicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicksView.swift; sourceTree = "<group>"; };
 		51517A9924B31AA500DEAED4 /* Journeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Journeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51517A9C24B31AA500DEAED4 /* JourneysApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneysApp.swift; sourceTree = "<group>"; };
-		51517A9E24B31AA500DEAED4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		51517A9E24B31AA500DEAED4 /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
 		51517AA024B31AA500DEAED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51517AA324B31AA500DEAED4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		51517AA524B31AA500DEAED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +46,8 @@
 		517B236324B8B27C0073C8F6 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		517B236524B8B28D0073C8F6 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		612F5DAE26CFFC6200AB281F /* AdvisoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvisoryView.swift; sourceTree = "<group>"; };
+		614FD0D626D848B700F0EEF1 /* SidebarNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarNavigation.swift; sourceTree = "<group>"; };
+		614FD0D826D8535200F0EEF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		619D13A426CEE6F400E269C7 /* ThumbnailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailsView.swift; sourceTree = "<group>"; };
 		619D13A626CEE91400E269C7 /* CountryHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryHeaderView.swift; sourceTree = "<group>"; };
 		619D13A826CEEAB200E269C7 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
@@ -85,7 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				51517A9C24B31AA500DEAED4 /* JourneysApp.swift */,
-				51517A9E24B31AA500DEAED4 /* ContentView.swift */,
+				614FD0D826D8535200F0EEF1 /* ContentView.swift */,
+				51517A9E24B31AA500DEAED4 /* TabNavigationView.swift */,
+				614FD0D626D848B700F0EEF1 /* SidebarNavigation.swift */,
 				51517AAD24B31F8400DEAED4 /* DiscoverView.swift */,
 				619D13AC26CEED8600E269C7 /* DiscoverView Subviews */,
 				513792A824B3DACA009EF05D /* PicksView.swift */,
@@ -207,12 +213,14 @@
 				619D13A526CEE6F400E269C7 /* ThumbnailsView.swift in Sources */,
 				61BEA5A226D076AA0058C658 /* LocationsView.swift in Sources */,
 				619D13A726CEE91400E269C7 /* CountryHeaderView.swift in Sources */,
-				51517A9F24B31AA500DEAED4 /* ContentView.swift in Sources */,
+				51517A9F24B31AA500DEAED4 /* TabNavigationView.swift in Sources */,
+				614FD0D926D8535200F0EEF1 /* ContentView.swift in Sources */,
 				51517A9D24B31AA500DEAED4 /* JourneysApp.swift in Sources */,
 				51517AAE24B31F8400DEAED4 /* DiscoverView.swift in Sources */,
 				517B236224B8A1AA0073C8F6 /* TipsView.swift in Sources */,
 				517B236624B8B28D0073C8F6 /* Bundle-Decodable.swift in Sources */,
 				513792A924B3DACA009EF05D /* PicksView.swift in Sources */,
+				614FD0D726D848B700F0EEF1 /* SidebarNavigation.swift in Sources */,
 				619D13AB26CEECCF00E269C7 /* HeaderTextView.swift in Sources */,
 				612F5DAF26CFFC6200AB281F /* AdvisoryView.swift in Sources */,
 				619D13A926CEEAB200E269C7 /* DescriptionView.swift in Sources */,
@@ -356,7 +364,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobdel.Journeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -378,7 +386,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.bobdel.Journeys;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
