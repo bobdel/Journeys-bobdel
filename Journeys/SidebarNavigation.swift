@@ -18,7 +18,7 @@ struct SidebarNavigation: View {
                 }
 
                 NavigationLink(destination: PicksView()) {
-                    Label("Our Picks", systemImage: "mappin")
+                    Label("Our Picks", systemImage: "star.fill")
                 }
 
                 NavigationLink(destination: LocationsView()) {
@@ -26,7 +26,7 @@ struct SidebarNavigation: View {
                 }
 
                 NavigationLink(destination: TipsView()) {
-                    Label("Tips", systemImage: "list.bullet.rectangle")
+                    Label("Tips", systemImage: "list.bullet")
                 }
             }
             .navigationTitle("Journeys")
