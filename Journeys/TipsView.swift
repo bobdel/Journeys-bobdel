@@ -43,7 +43,7 @@ struct TipsView: View {
         List(flattenedTips, children: \.children) { tip in
             VStack(alignment: .leading) {
                 if tip.children != nil {
-                    Text(tip.content)
+                    Label(tip.content, systemImage: "list.bullet.rectangle")
                         .font(.headline)
                 } else {
                     Text(tip.content)

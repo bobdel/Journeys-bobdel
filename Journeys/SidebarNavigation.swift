@@ -14,19 +14,19 @@ struct SidebarNavigation: View {
         NavigationView {
             List {
                 NavigationLink(destination: DiscoverView(location: locations.primary)) {
-                    Text("Discover")
+                    Label("Discover", systemImage: "airplane.circle.fill")
                 }
 
                 NavigationLink(destination: PicksView()) {
-                    Text("Our Picks")
+                    Label("Our Picks", systemImage: "mappin")
                 }
 
                 NavigationLink(destination: LocationsView()) {
-                    Text("Vacation Map")
+                    Label("Vacation Map", systemImage: "map.fill")
                 }
 
                 NavigationLink(destination: TipsView()) {
-                    Text("Tips")
+                    Label("Tips", systemImage: "list.bullet.rectangle")
                 }
             }
             .navigationTitle("Journeys")
