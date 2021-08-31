@@ -11,6 +11,9 @@ import SwiftUI
 import VisualEffects
 
 struct DiscoverView: View {
+    @Namespace var namespace
+    @State private var selectedPicture: String?
+
     let location: Location
 
     var body: some View {
@@ -32,7 +35,7 @@ struct DiscoverView: View {
 
                         CountryHeaderView(location: location)
 
-                        ThumbnailsView(location: location)
+                        ThumbnailsView(namespace: _namespace, selectedPicture: $selectedPicture, location: location)
 
                         DescriptionView(location: location)
                             .padding(.horizontal, 20)
@@ -50,6 +53,11 @@ struct DiscoverView: View {
                         RoundedRectangle(cornerRadius: 20)
                             .fill(Color("Background"))
                     )
+                }
+
+                // overlay
+                if let picture = selectedPicture {
+                    OverlayView(selectedPicture: $selectedPicture, namespace: _namespace, picture: picture)
                 }
             }
         }
